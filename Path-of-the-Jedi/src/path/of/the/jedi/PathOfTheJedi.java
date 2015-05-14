@@ -23,6 +23,22 @@ public class PathOfTheJedi {
         String playerInfo = playerOne.toString();
         System.out.println(playerInfo);
         
+        
+        ship shipOne = new ship ();
+        
+        shipOne.setName("Millenium Falcon");
+        shipOne.setDescription("This is our ship.");
+        shipOne.setxCoordinate(1.00);
+        shipOne.setyCoordinate(1.00);
+        shipOne.setShield(10.00);
+        shipOne.setArmor(10.00);
+        shipOne.setWeapon(10.00);
+        
+        String shipInfo = shipOne.toString();
+        System.out.println (shipInfo);
+        
+        
+        
     }
     
 }
