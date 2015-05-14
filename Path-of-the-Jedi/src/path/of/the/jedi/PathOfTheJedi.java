@@ -15,6 +15,7 @@ public class PathOfTheJedi {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        //First Player information
         Player playerOne = new Player ();
         
         playerOne.setName("Fred Flintstone");
@@ -23,7 +24,7 @@ public class PathOfTheJedi {
         String playerInfo = playerOne.toString();
         System.out.println(playerInfo);
         
-        
+        //First ship information
         ship shipOne = new ship ();
         
         shipOne.setName("Millenium Falcon");
@@ -36,6 +37,17 @@ public class PathOfTheJedi {
         
         String shipInfo = shipOne.toString();
         System.out.println (shipInfo);
+        
+        //First room information
+        Room roomOne = new Room ();
+        
+        roomOne.setName("Kashyyyk");
+        roomOne.setDescription("This is the first planet, where the player starts at.");
+        roomOne.setxCoordinate(1.00);
+        roomOne.setyCoordinate(1.00);
+        
+        String roomInfo = roomOne.toString();
+        System.out.println(roomInfo);
         
         
         
